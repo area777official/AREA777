@@ -202,8 +202,11 @@
   </div>
   <h1 style="display:none;" id="mainTitle">AREA777 ID Card Generator</h1>
   <div class="form" style="display:none;" id="formContainer">
+    <label for="photoUpload">YOUR PHOTO</label>
     <input type="file" id="photoUpload" accept="image/*">
+    <label for="userName">YOUR NAME</label>
     <input type="text" id="userName" maxlength="10" placeholder="Enter your name">
+    <label for="accessLevel">YOUR ACCESS LEVEL</label>
     <select id="accessLevel">
       <option value="A">A</option>
       <option value="S">S</option>
@@ -395,8 +398,8 @@ ctx.restore();
     ctx.font = "12px MatrixTypeDisplay";
     ctx.fillText("QUALIFICATIONS PROFESSIONAL", 34, 280);
     ctx.fillText("STATUS: ACTIVE", 34, 300);
-    ctx.fillText("AUTHORIZATION GRANTED", 34, 320);
-    ctx.fillText("-- CLASSIFIED ACCESS --", 34, 340);
+    ctx.fillText("AUTHORIZATION GRANTED", 60, 320);
+    ctx.fillText("-- CLASSIFIED ACCESS --", 53, 340);
 
     // ข้อความด้านล่าง
     ctx.font = "11px 'MatrixTypeDisplay'";
